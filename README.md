@@ -1,3 +1,2 @@
 # damagecs.github.io
-# gh-pages
-# gh-pages
+# Random fact generator
