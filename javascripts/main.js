@@ -14,10 +14,10 @@ $.icndb.getRandomJokes(callback);
 $("#new-fact-button").on('click',function() {
     $.icndb.getRandomJokes(callback);
   });
-
-	$('#twitter').on('click', function() {
-	    $.attr('href', 'https://twitter.com/intent/tweet?text=' + callback);
-	  });
-
-
 })(jQuery);
+
+function tweet () {
+	var text = document.getElementById("fact").innerText;
+  console.log(text);
+  window.open("http://twitter.com/intent/tweet?text=" + text);
+}

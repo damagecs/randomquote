@@ -1,34 +1,28 @@
 <!DOCTYPE HTML>
 <head>
-  <title>Random Quote Generator</title>
+  <title>Random Fact Generator</title>
    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="http://code.icndb.com/jquery.icndb.min.js"></script>
    <script src="javascripts/main.js"></script>
   <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="stylesheets/stylesheet.css" type ="text/css">
 </head>
-
 <body>
   <header>
     <h1>Random joke generator</h1>
     <br>
   <p>Check out random facts about Chuck Norris</p>
   </header>
-
     <div class="fact"><span id="fact" class="text"></span>
       <br>
       <br>
     </div>
-
-    <button id="new-fact-button" class="fa fa-arrow-up fa-lg" type="button">New Fact</button>
-    <button id="twitter" class="fa fa-twitter fa-lg" type="button" href="https://twitter.com/intent/tweet" target="_blank"><i> Tweet it!</i></button>
-
+    <button id="new-fact-button" class="btn btn-default btn-lg fa fa-arrow-up fa-lg" type="button">New Fact</button>
+    <button id="twitter" class="btn btn-default btn-lg fa fa-twitter fa-lg" type="button" target="_blank" onclick = "tweet()"><i>Tweet it!</i></button>
   <footer>
-      <hr> Copyright &copy; Alexandru Stoica
+      <hr> Copyright &copy; <a href="https://github.com/damagecs" target="_blank">Alexandru Stoica</a>
     </footer>
 </body>
 </html>
