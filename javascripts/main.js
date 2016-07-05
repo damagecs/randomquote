@@ -19,5 +19,5 @@ $("#new-fact-button").on('click',function() {
 function tweet () {
 	var text = document.getElementById("fact").innerText;
   console.log(text);
-  window.open("http://twitter.com/intent/tweet?text=" + text);
+  window.open("https://twitter.com/intent/tweet?text=" + text);
 }
